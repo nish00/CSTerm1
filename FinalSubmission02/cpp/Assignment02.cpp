@@ -8,12 +8,12 @@ int main() {
     std::cin>>num2; // User input   
     //Conditional Statements
     if(num1>num2){
-        std::cout<<"Number 1 is the greater number.";
+        std::cout<<"The greatest number is "<<num1;
         }
         else if(num1<num2){
-        std::cout<<"Number 2 is the greater number.";
+        std::cout<<"The greatest number is "<<num2;
         }
     else
-        std::cout<<"Number 1 and Number 2 are equals.";
+        std::cout<<"Both numbers are equal";
 return 0;
 }

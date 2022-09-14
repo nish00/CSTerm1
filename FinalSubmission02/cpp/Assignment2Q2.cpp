@@ -21,16 +21,16 @@ int main(){
 
     //Selection statement or conditional statements
     if(num1>num2&&num1>num3){
-        std::cout<<"Number 1 is greater than number 2 and number 3";
+        std::cout<<"The greatest number is "<<num1;
     }
     else if(num2>num1&&num2>num3){
-        std::cout<<"Number 2 is greater than number 1 and number 3";
+        std::cout<<"The greatest number is "<<num2;
     }
     else if(num3>num1&&num3>num2){
-        std::cout<<"Number 3 is greater than number 1 and number 2";
+        std::cout<<"The greatest number is "<<num3;
     }
     else
-        std::cout<<"All three numbers are equal";
+        std::cout<<"Both numbers have the same value";
 
 //return of 0 value as there is no error
 return 0;
